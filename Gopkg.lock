@@ -2,6 +2,17 @@
 
 
 [[projects]]
+  branch = "master"
+  digest = "1:295cf8e65f048dcedb192672f237cbb9d74d11a8da39fe10d22a4c6ca52877e9"
+  name = "github.com/daisuke13/todo-app"
+  packages = [
+    "server/src/handler",
+    "server/src/model",
+  ]
+  pruneopts = "UT"
+  revision = "7e654f88088742ef0854a278434f9f7cf4723532"
+
+[[projects]]
   digest = "1:76dc72490af7174349349838f2fe118996381b31ea83243812a97e5a0fd5ed55"
   name = "github.com/dgrijalva/jwt-go"
   packages = ["."]
@@ -153,6 +164,8 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
+    "github.com/daisuke13/todo-app/server/src/handler",
+    "github.com/daisuke13/todo-app/server/src/model",
     "github.com/dgrijalva/jwt-go",
     "github.com/go-sql-driver/mysql",
     "github.com/jinzhu/gorm",
