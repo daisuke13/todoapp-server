@@ -1,1 +1,1 @@
-web: todoapp-server-side
+web: todoapp-server
