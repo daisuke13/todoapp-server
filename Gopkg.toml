@@ -29,7 +29,7 @@
   unused-packages = true
 
 [metadata.heroku]
-  root-package = "github.com/daisuke13/todo-app/server/src"
+  root-package = "github.com/daisuke13/todoapp-server"
   go-version = "go1.11.2"
   install = [ ".", "./cmd/..." ]
   ensure = "true"
